@@ -1,7 +1,6 @@
 """Django settings for the Kanban board API."""
 
 import os
-from datetime import timedelta
 from pathlib import Path
 
 import dj_database_url
@@ -24,6 +23,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "boards",
 ]
 
 MIDDLEWARE = [
