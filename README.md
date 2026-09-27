@@ -11,6 +11,10 @@ A full-stack Kanban board. The frontend is built with **React 19**, **TypeScript
 
 ![Board](docs/board.jpg)
 
+**Live demo:** https://kanban-board-demo.onrender.com (demo account `demo` / `kanban12345`) · [API docs](https://kanban-api-demo.onrender.com/api/docs/).
+
+> Hosted on Render's free plan: the first request after a period of inactivity can take up to a minute while the service wakes up. Demo data is reset on every restart.
+
 ## Features
 
 - **Drag & drop** cards within a column and across columns, with pointer and keyboard support (dnd-kit)
