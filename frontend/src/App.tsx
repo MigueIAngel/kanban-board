@@ -2,6 +2,8 @@ import { Route, Routes } from 'react-router'
 import { GuestRoute, ProtectedRoute } from './components/ProtectedRoute'
 import { Layout } from './components/Layout'
 import { AuthPage } from './pages/AuthPage'
+import { BoardPage } from './pages/BoardPage'
+import { BoardsPage } from './pages/BoardsPage'
 
 export default function App() {
   return (
@@ -12,7 +14,8 @@ export default function App() {
       </Route>
       <Route element={<ProtectedRoute />}>
         <Route element={<Layout />}>
-          <Route index element={<p className="p-8">Boards</p>} />
+          <Route index element={<BoardsPage />} />
+          <Route path="/boards/:boardId" element={<BoardPage />} />
         </Route>
       </Route>
     </Routes>
