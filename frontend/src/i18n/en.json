@@ -1,0 +1,57 @@
+{
+  "app": { "name": "Flowboard", "tagline": "Organize your work, one card at a time." },
+  "auth": {
+    "login": "Log in",
+    "register": "Create account",
+    "logout": "Log out",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "invalid": "Invalid username or password",
+    "demo": "Try the demo account",
+    "registerError": "Could not create the account. Check the fields."
+  },
+  "boards": {
+    "title": "Your boards",
+    "new": "New board",
+    "namePlaceholder": "Board name",
+    "create": "Create",
+    "empty": "You have no boards yet. Create your first one!",
+    "cards_one": "{{count}} card",
+    "cards_other": "{{count}} cards",
+    "delete": "Delete board",
+    "confirmDelete": "Delete this board and all its cards?",
+    "back": "All boards",
+    "notFound": "Board not found"
+  },
+  "columns": {
+    "add": "Add column",
+    "titlePlaceholder": "Column title",
+    "delete": "Delete column",
+    "confirmDelete": "Delete this column and its cards?"
+  },
+  "cards": {
+    "add": "Add a card",
+    "titlePlaceholder": "What needs to be done?",
+    "edit": "Edit card",
+    "title": "Title",
+    "description": "Description",
+    "priority": "Priority",
+    "dueDate": "Due date",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirmDelete": "Delete this card?",
+    "priorities": { "low": "Low", "medium": "Medium", "high": "High" },
+    "overdue": "Overdue"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong.",
+    "retry": "Retry",
+    "language": "Language",
+    "theme": "Toggle theme"
+  }
+}

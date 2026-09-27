@@ -1,0 +1,57 @@
+{
+  "app": { "name": "Flowboard", "tagline": "Organiza tu trabajo, una tarjeta a la vez." },
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Crear cuenta",
+    "logout": "Cerrar sesión",
+    "username": "Usuario",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "noAccount": "¿No tienes cuenta?",
+    "haveAccount": "¿Ya tienes cuenta?",
+    "invalid": "Usuario o contraseña incorrectos",
+    "demo": "Probar la cuenta demo",
+    "registerError": "No se pudo crear la cuenta. Revisa los campos."
+  },
+  "boards": {
+    "title": "Tus tableros",
+    "new": "Nuevo tablero",
+    "namePlaceholder": "Nombre del tablero",
+    "create": "Crear",
+    "empty": "Aún no tienes tableros. ¡Crea el primero!",
+    "cards_one": "{{count}} tarjeta",
+    "cards_other": "{{count}} tarjetas",
+    "delete": "Eliminar tablero",
+    "confirmDelete": "¿Eliminar este tablero y todas sus tarjetas?",
+    "back": "Todos los tableros",
+    "notFound": "Tablero no encontrado"
+  },
+  "columns": {
+    "add": "Añadir columna",
+    "titlePlaceholder": "Título de la columna",
+    "delete": "Eliminar columna",
+    "confirmDelete": "¿Eliminar esta columna y sus tarjetas?"
+  },
+  "cards": {
+    "add": "Añadir tarjeta",
+    "titlePlaceholder": "¿Qué hay que hacer?",
+    "edit": "Editar tarjeta",
+    "title": "Título",
+    "description": "Descripción",
+    "priority": "Prioridad",
+    "dueDate": "Fecha límite",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "confirmDelete": "¿Eliminar esta tarjeta?",
+    "priorities": { "low": "Baja", "medium": "Media", "high": "Alta" },
+    "overdue": "Vencida"
+  },
+  "common": {
+    "loading": "Cargando…",
+    "error": "Algo salió mal.",
+    "retry": "Reintentar",
+    "language": "Idioma",
+    "theme": "Cambiar tema"
+  }
+}
